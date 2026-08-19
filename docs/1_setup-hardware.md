@@ -42,6 +42,10 @@ Once the firmware is downloaded, you'll see a QR code that you can scan with you
 <img src="../img/relic-flashing-qrcode.png" width="400" alt="success in flash relic">
 </div>
 
+You have also the possibility to use the classic way by searching for the SSID and entering the password (that is also displayed in the portal).
+
+> Note: The password is generated during the firmware upload and unique to your device.
+
 ### For Docker containers
 
 If you're running Relic in a Docker container — for instance on a Raspberry Pi — check out [docker.md](https://github.com/ficaud/relic-core/blob/main/doc/docker.md) to learn how to set it up properly.

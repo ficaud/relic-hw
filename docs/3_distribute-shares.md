@@ -74,8 +74,7 @@ Now here is an array of acronyms proposition that you could use to describes wha
 | Keepass | Kp |
 | ... | ... |
 
-
-TBD: photo of a key chain containing the shares
+![relic keychain](img/relic-keychain-example.png){ width="500" }
 
 ## How to craft a share (method 2)
 

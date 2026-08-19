@@ -60,7 +60,7 @@ BTC-Alice-26/08/12-v1.2.3
 
 Now here is an array of acronyms proposition that you could use to describes what the secret is about:
 
-| Acronym | Description |
+| Name | Acronym |
 | --- | --- |
 | Gmail | Gm |
 | Facebook | Fb |

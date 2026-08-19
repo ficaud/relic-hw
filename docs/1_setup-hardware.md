@@ -13,6 +13,12 @@ The following boards are currently supported:
 
 > Note 2: For now, Relic requires boards that support Wi-Fi Access Point (AP) mode. Future versions may support other connection methods.
 
+### Something else to know about the target
+
+On the ESP32-S3-DevKitC-1 and the Docker container platform, QR code decoding is done on the device itself — no phone or browser needed.
+
+On the ESP32-DevKit-V1, decoding is handled by a third party instead. This board doesn't have enough RAM to embed the decoder, so it relies on an external device to do the job.
+
 ## How to get a microcontroller
 
 These boards are widely available, so you shouldn't have any trouble finding one. You can order them from a specialized electronics retailer, buy them on the usual online marketplaces, or even pick one up at a physical store — whichever suits you best.

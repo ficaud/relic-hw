@@ -43,7 +43,7 @@ The QR code is generated on the fly and never stored on the device. It can be sc
 
 ## Unsplit your shares
 
-The **unsplit** option does the exact opposite: it reconstructs your original secret from your shares. To do so, you'll need to bring together at least the threshold number of shares, as explained in the [introduction](index.md).
+The **unsplit** option does the exact opposite: it reconstructs your original secret from your shares. To do so, you'll need to bring together at least the threshold number of shares, as explained in the [recover your secret](5_recover-your-secret.md).
 
 ---
 

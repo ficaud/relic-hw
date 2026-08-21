@@ -51,21 +51,3 @@ lsof -ti :8000 | xargs kill
 The site is automatically rebuilt and deployed to GitHub Pages on every push to `main` (see `.github/workflows/deploy.yml`). The deployment uses the official GitHub Pages Actions (`actions/deploy-pages`), which publish the built site directly as a Pages artifact — it does **not** rely on GitHub pushing from the `gh-pages` branch.
 
 > **One-time setup:** In **Settings → Pages → Build and deployment → Source**, select **GitHub Actions** (instead of "Deploy from a branch"). This is required for the workflow to publish the site.
-
-## Versioning
-
-The documentation is versioned with [`mike`](https://github.com/jimporter/mike), which publishes multiple versions of the docs and adds a version selector in the navigation bar.
-
-### Release via git tag (recommended)
-
-The CI workflow is configured to deploy a versioned release automatically when you push a `v*` tag. No manual `mike` command needed:
-
-```bash
-git tag v1.0.0
-git push origin v1.0.0
-```
-
-This triggers the workflow, which:
-- Extracts the version from the tag (`v1.0.0` → `1.0.0`)
-- Deploys that version with `mike`
-- Moves the `latest` alias to the new version and sets it as default

@@ -1,7 +1,5 @@
 # 2. Create Shares
 
-> Note: If you want to know more about the way to connect to relic device, please refer to the previous page.
-
 When you connect to the Relic, you'll see two options: **split** or **unsplit**.
 
 ![relic main page](img/relic_mainpage.PNG){ width="300" }
@@ -12,7 +10,7 @@ Relic runs as a captive portal, so the app opens automatically on your phone as 
 
 The **split** option divides your secret into multiple pieces, called *shares*.
 
-Type (or paste) your secret into the text box, then tap the **split** button. The letters and numbers that appear are your shares — save them somewhere safe.
+Type (or paste) your secret into the text box, then tap the **Encrypt** button. The letters and numbers that appear are your shares — save them somewhere safe.
 
 ![split page empty](img/split_empty.PNG){ width="300" }
 
@@ -41,9 +39,16 @@ The QR code is generated on the fly and never stored on the device. It can be sc
 
 > Note: You'll learn about the best ways to distribute your shares in the next step, [Distribute Shares](3_distribute-shares.md).
 
+
+## Bonus : Crypto seed phrase
+
+If you want to split a seed phrase to secure your crypto assets, you can use the BIP-39 compression to reduce the qrcode size (which is recommended).
+
+Read more about it [here](bonus_crypto_seedphrase.md).
+
 ## Unsplit your shares
 
-The **unsplit** option does the exact opposite: it reconstructs your original secret from your shares. To do so, you'll need to bring together at least the threshold number of shares, as explained in the [recover your secret](5_recover-your-secret.md).
+The **unsplit** option does the exact opposite: it reconstructs your original secret from your shares. To do so, you'll need to bring together at least the threshold number of shares, as explained in the [recover your secret](4_recover-your-secret.md).
 
 ---
 

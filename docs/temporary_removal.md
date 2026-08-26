@@ -17,3 +17,12 @@ Try entering key words like "custom qr code key chain" or "qr code key chain" an
 
 To respect the second most important criterion (**the privacy**) I'd recommend not crafting all your shares by the same vendors, because that would basically means giving it your secret (not cool).
 ```
+
+From the setup hardware page:
+```
+## Craft a nice enclosure
+
+Once your Relic is up and running, I'd recommend crafting a nice enclosure for your microcontroller Not only does it protect the hardware, but it also keeps it from being mistaken for a leftover piece of electronics and thrown in the bin.
+
+TBD: find a hackable way to do enclosure / or 3d print it.
+```

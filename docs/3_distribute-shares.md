@@ -14,6 +14,8 @@ This document focuses on the best practices for creating a share that respects y
 
 ### 1. Make your shares physical
 
+The main idea is that you shouldn't let your shares on a computer and do something to make it something real that people can truly own.
+
 TBD: didn't find a good way to perform this step yet (still investigating)
 
 ### 2. Label your shares

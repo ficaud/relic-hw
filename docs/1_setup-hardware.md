@@ -16,9 +16,7 @@ The following boards are currently supported:
 
 ### Something else to know about the target
 
-On the ESP32-S3-DevKitC-1 and the Docker container platform, QR code decoding is done on the device itself — no phone or browser needed.
-
-On the ESP32-DevKit-V1, decoding is handled by a third party instead. This board doesn't have enough RAM to embed the decoder, so it relies on an external device to do the job.
+On the ESP32-DevKit-V1, decoding is handled by a third party instead of being embedded in the device like others. This board doesn't have enough RAM to embed the decoder, so it relies on an external device to do the job.
 
 ## How to get a microcontroller
 
@@ -57,19 +55,11 @@ You have also the possibility to use the classic way by searching for the SSID a
 
 If you're running Relic in a Docker container — for instance on a Raspberry Pi — check out [docker.md](https://github.com/ficaud/relic-core/blob/main/doc/docker.md) to learn how to set it up properly.
 
-More information about the flash process can be found [here](https://github.com/ficaud/relic-core/tree/dev/jfi#how-to-connect-to-captive-portal).
-
 ## ESP32 programming Live demo
 
 Here you can find a live demo showing you in video the exact steps that you need to follow to flash relic-core in your device.
 
 TBD: add video of esp32 board's manipulation to get the software up and running
-
-## Craft a nice enclosure
-
-Once your Relic is up and running, I'd recommend crafting a nice enclosure for your microcontroller Not only does it protect the hardware, but it also keeps it from being mistaken for a leftover piece of electronics and thrown in the bin.
-
-TBD: find a hackable way to do enclosure / or 3d print it.
 
 ## More links
 

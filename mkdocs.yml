@@ -71,8 +71,8 @@ nav:
   - 1. Setup the Hardware: 1_setup-hardware.md
   - 2. Create Shares: 2_create-shares.md
   - 3. Distribute Shares: 3_distribute-shares.md
-  - 4. Explain Relic: 4_explain-relic.md
-  - 5. Recover Your Secret: 5_recover-your-secret.md
+#  - 4. Explain Relic: 4_explain-relic.md
+  - 4. Recover Your Secret: 4_recover-your-secret.md
 extra:
   version:
     provider: mike

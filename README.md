@@ -8,7 +8,7 @@
 # R.E.L.I.C
 <i>Recovery and Encryption via Lagrange Interpolated Components</i>
 
-[![Relic-core](https://img.shields.io/badge/Relic_core-v1.4.2-orange)](https://github.com/ficaud/relic-core)
+[![Relic-core](https://img.shields.io/badge/Relic_core-v1.5.0-orange)](https://github.com/ficaud/relic-core)
 [![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue)](https://ficaud.github.io/relic-hw/)
 
 </div>

@@ -7,6 +7,7 @@ The following boards are currently supported:
 - [ESP32-S3-DevKitC-1](https://docs.zephyrproject.org/latest/boards/espressif/esp32s3_devkitc/doc/index.html)
 - [ESP32-DevKit-V1](https://docs.zephyrproject.org/latest/boards/others/doit_esp32_devkit_v1/doc/index.html)
 - [Docker Container Platform](https://github.com/ficaud/relic-core/blob/main/doc/docker.md): compatible with x86_64 and ARM environments (Linux, macOS, Windows, and Raspberry Pi arm64 / arm/v7).
+- [XIAO_ESP32S3](https://docs.zephyrproject.org/latest/boards/seeed/xiao_esp32s3/doc/index.html)
 - Support for more boards is on the way — check back soon...
 
 > Note: These boards have been tested and are known to work with relic-core. There are probably more that work, but since they haven't been tested, they won't appear on the list.

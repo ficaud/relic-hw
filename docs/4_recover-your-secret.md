@@ -24,6 +24,12 @@ If you choose the QR code scanner, make sure you're standing directly in front o
 
 ![success unsplit secret](img/success_unsplit_secret.PNG){ width="300" }
 
+## Bonus : Crypto seed phrase
+
+If you want to unsplit a seed phrase to recover your crypto assets, please make double check if there is the BIP-39 compression that has been set to reduce the qrcode size (which is recommended).
+
+Read more about it [here](bonus_crypto_seedphrase.md).
+
 ## Troubleshooting
 
 If you have trouble resolving the QR code, you can try the online WASM version available on the [github page of the project](https://ficaud.github.io/relic-core/).

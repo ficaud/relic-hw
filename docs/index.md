@@ -54,4 +54,4 @@ Building your own Relic is a step-by-step journey. The steps below will walk you
 - [Learn more](1_setup-hardware.md) about the brain of the Relic device.
 - [Learn more](2_create-shares.md) about the best ways to create your shares.
 - [Learn more](3_distribute-shares.md) about the best ways to distribute your shares.
-- [Learn more](4_explain-relic.md) about how to explain relic to people that know nothing about computer science.
+- [Learn more](4_recover-your-secret.md) about the ways to recover your secret.

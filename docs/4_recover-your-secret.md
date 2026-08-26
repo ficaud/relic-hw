@@ -26,6 +26,8 @@ If you choose the QR code scanner, make sure you're standing directly in front o
 
 ## Bonus : Crypto seed phrase
 
+> Note: As you can see, the screenshots above are showing what it looks like to have a qrcode for seed phrase before the BIP-39 compression was implemented.
+
 If you want to unsplit a seed phrase to recover your crypto assets, please make double check if there is the BIP-39 compression that has been set to reduce the qrcode size (which is recommended).
 
 Read more about it [here](bonus_crypto_seedphrase.md).

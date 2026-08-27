@@ -55,12 +55,6 @@ You have also the possibility to use the classic way by searching for the SSID a
 
 If you're running Relic in a Docker container — for instance on a Raspberry Pi — check out [docker.md](https://github.com/ficaud/relic-core/blob/main/doc/docker.md) to learn how to set it up properly.
 
-## ESP32 programming Live demo
-
-Here you can find a live demo showing you in video the exact steps that you need to follow to flash relic-core in your device.
-
-TBD: add video of esp32 board's manipulation to get the software up and running
-
 ## More links
 
 - [Wikipedia ESP32](https://fr.wikipedia.org/wiki/ESP32)

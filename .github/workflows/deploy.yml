@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    tags:
-      - "v*"
   workflow_dispatch:
 
 permissions:
@@ -37,43 +35,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Configure git
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-      - name: Fetch gh-pages version history
-        run: |
-          # mike needs the existing gh-pages branch locally to preserve all
-          # previously published versions. Without it, mike creates a fresh
-          # branch and wipes out every previous version on each deploy.
-          git fetch origin gh-pages
-          git branch gh-pages origin/gh-pages 2>/dev/null || true
-
-      - name: Build versioned docs with mike
-        run: |
-          # mike deploy (without --push) builds the full versioned structure
-          # (per-version subdir, latest/ alias, versions.json) into the local
-          # gh-pages branch. We then publish that branch as a Pages artifact.
-          #
-          # NOTE: We deliberately do NOT push to gh-pages nor delete/recreate it.
-          # Publishing through actions/deploy-pages bypasses the "deploy from
-          # branch" mode entirely, which was serving a stale snapshot where
-          # version subdirectories (e.g. /1.0.1/) returned 404.
-          if [ "${{ github.ref_type }}" = "tag" ]; then
-            VERSION="${GITHUB_REF_NAME#v}"
-            mike deploy "$VERSION" latest --update-aliases
-            mike set-default latest
-          else
-            mike deploy dev --update-aliases
-            mike set-default dev
-          fi
-
-      - name: Extract gh-pages content
-        run: |
-          # Materialize the versioned build from the local gh-pages branch into
-          # a staging directory to upload as the Pages artifact.
-          git worktree add --detach "$RUNNER_TEMP/pages" gh-pages
+      - name: Build docs
+        run: mkdocs build
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
@@ -81,7 +44,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: "${{ runner.temp }}/pages"
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deployment

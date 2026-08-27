@@ -4,7 +4,7 @@ site_url: https://ficaud.github.io/relic-hw/
 repo_url: https://github.com/ficaud/relic-hw
 repo_name: ficaud/relic-hw
 edit_uri: edit/main/docs/
-copyright: Relic Hardware is open source — Documentation v{{ version }}
+copyright: Relic Hardware is open source — Documentation
 
 theme:
   name: material
@@ -44,8 +44,6 @@ extra_css:
 
 plugins:
   - search
-  - mike
-  - version_plugin
 
 markdown_extensions:
   - admonition
@@ -74,8 +72,6 @@ nav:
 #  - 4. Explain Relic: 4_explain-relic.md
   - 4. Recover Your Secret: 4_recover-your-secret.md
 extra:
-  version:
-    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ficaud/relic-core

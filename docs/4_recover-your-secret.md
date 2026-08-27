@@ -24,7 +24,7 @@ If you choose the QR code scanner, make sure you're standing directly in front o
 
 ![success unsplit secret](img/success_unsplit_secret.PNG){ width="300" }
 
-## Bonus : Crypto seed phrase
+## Bonus : Crypto seed phrase & pass phrase
 
 > Note: As you can see, the screenshots above are showing what it looks like to have a qrcode for seed phrase before the BIP-39 compression was implemented.
 

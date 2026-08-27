@@ -40,7 +40,7 @@ The QR code is generated on the fly and never stored on the device. It can be sc
 > Note: You'll learn about the best ways to distribute your shares in the next step, [Distribute Shares](3_distribute-shares.md).
 
 
-## Bonus : Crypto seed phrase
+## Bonus : Crypto seed phrase & pass phrase
 
 If you want to split a seed phrase to secure your crypto assets, you can use the BIP-39 compression to reduce the qrcode size (which is recommended).
 

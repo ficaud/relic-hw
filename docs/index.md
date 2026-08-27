@@ -57,3 +57,9 @@ Building your own Relic is a step-by-step journey. The steps below will walk you
 - [Learn more](2_create-shares.md) about the best ways to create your shares.
 - [Learn more](3_distribute-shares.md) about the best ways to distribute your shares.
 - [Learn more](4_recover-your-secret.md) about the ways to recover your secret.
+
+## Complete demo of relic-core
+
+Here is a video showing the full process for flashing the firmware onto a microcontroller, creating shares, and recovering your secret.
+
+TBD: complete overview video

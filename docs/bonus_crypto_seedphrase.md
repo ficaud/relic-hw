@@ -24,6 +24,20 @@ All you have to do to activate the compression is check the `BIP-39 compression`
 
 From there, the process is the same. Shares are generated and you can distribute them as you want (except that you benefit from shorter pieces of your secret).
 
+### Adding a pass phrase
+
+If you're using a passphrase with a hidden wallet, you can also check the box `With passphrase` before tapping "Encrypt".
+
+This will compress the seed phrase using the index of each word but leave the passphrase untouched.
+
+**Important note**: The format used to include the passphrase in the seed phrase is as follows:
+
+```bash
+"abandon abandon zoo; passphrase"
+```
+
+You need to separate the seed phrase from the passphrase with a semicolon (`;`).
+
 ## How to recover your secret with BIP-39 compression
 
 As explained in the [recovery secret](4_recover-your-secret.md) page, you can recover your secret by entering the shares manually or by scanning their corresponding QR codes.
@@ -31,3 +45,7 @@ As explained in the [recovery secret](4_recover-your-secret.md) page, you can re
 All you have to do to activate the compression is check the `BIP-39 compression` box before tapping on "Reconstruct".
 
 ![bip39 unsplit page](img/bip39_unsplit.PNG){ width="300" }
+
+### Adding a pass phrase
+
+If you know the secret you're trying to recover is a BIP-39 seed phrase that includes a passphrase, all you need to do is check the `With passphrase` box and scan your QR codes (or enter the shares manually) before hitting the `Reconstruct` button.

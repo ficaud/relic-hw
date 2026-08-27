@@ -49,6 +49,8 @@ Good candidates include, the master password that unlocks your password manager,
 
 ## How to build a Relic
 
+**WARNING:** Some of the screenshots in this documentation are outdated and may not reflect the current Relic UI.
+
 Building your own Relic is a step-by-step journey. The steps below will walk you through each part of the process, from the hardware to how you handle your shares once they exist.
 
 - [Learn more](1_setup-hardware.md) about the brain of the Relic device.

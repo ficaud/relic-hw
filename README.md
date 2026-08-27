@@ -8,7 +8,7 @@
 # R.E.L.I.C
 <i>Recovery and Encryption via Lagrange Interpolated Components</i>
 
-[![Relic-core](https://img.shields.io/badge/Relic_core-v1.5.0-orange)](https://github.com/ficaud/relic-core)
+[![Relic-core](https://img.shields.io/badge/Relic_core-v1.6.0-orange)](https://github.com/ficaud/relic-core)
 [![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue)](https://ficaud.github.io/relic-hw/)
 
 </div>
@@ -42,10 +42,11 @@ If it's running in the background (for example, started with `&` or from a diffe
 pkill -f "mkdocs serve"
 ```
 
-Or, to target the specific port:
+Or, if there is something running on the same port, you can target it and kill it:
 
 ```bash
-lsof -ti :8000 | xargs kill
+lsof -i :8000
+kill -9 PID
 ```
 
 The site is automatically rebuilt and deployed to GitHub Pages on every push to `main` (see `.github/workflows/deploy.yml`). The deployment uses the official GitHub Pages Actions (`actions/deploy-pages`), which publish the built site directly as a Pages artifact — it does **not** rely on GitHub pushing from the `gh-pages` branch.

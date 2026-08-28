@@ -62,4 +62,6 @@ Building your own Relic is a step-by-step journey. The steps below will walk you
 
 Here is a video showing the full process for flashing the firmware onto a microcontroller, creating shares, and recovering your secret.
 
-TBD: complete overview video
+<video width="100%" controls>
+  <source src="img/relic-demo.mp4" type="video/mp4">
+</video>

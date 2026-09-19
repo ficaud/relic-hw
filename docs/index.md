@@ -35,9 +35,9 @@ This means you can distribute your shares across different locations or people, 
 Relic aims to implement Shamir's Secret Sharing in a way that is:
 
 - **Timeless** — long-lasting hardware that comes with software handling most of its functions.
-- **Private** — relic is not connected to the internet.
+- **Private** — Relic is not connected to the internet.
 - **Secure** — designed to protect your data against theft and loss.
-- **Open source** — anyone can build its own relic device for almost nothing.
+- **Open source** — anyone can build their own Relic device for almost nothing.
 
 The core idea is to make this powerful technology available to everyone, giving you full ownership and control over your most sensitive information. All that, without relying on any third party or cloud service that could have a leak or close overnight.
 
@@ -45,11 +45,11 @@ The core idea is to make this powerful technology available to everyone, giving 
 
 You can store pretty much anything you want to keep secret. However, I'd recommend being selective about what you put inside. A Relic is best reserved for your most important secrets — the ones you truly couldn't afford to lose.
 
-Good candidates include, the master password that unlocks your password manager, the recovery phrase or keys that protect your cryptocurrency, or even a private keepsake you don't want to lose.
+Good candidates include the master password that unlocks your password manager, the recovery phrase or keys that protect your cryptocurrency, or even a private keepsake you don't want to lose.
 
 ## How to build a Relic
 
-**WARNING:** Some of the screenshots in this documentation are outdated and may not reflect the current Relic UI.
+**WARNING:** Some of the screenshots in this documentation are outdated and may not reflect the current Relic UI. However, I'll keep the most important ones up to date so that the guide stays easily understandable.
 
 Building your own Relic is a step-by-step journey. The steps below will walk you through each part of the process, from the hardware to how you handle your shares once they exist.
 

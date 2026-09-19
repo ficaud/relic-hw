@@ -33,7 +33,7 @@ Here are a few sources worth checking out:
 
 ## How to program the microcontroller
 
-The way you get Relic up and running depends on the platform you're targeting.
+Once you get your board, the way you get Relic up and running depends on the platform you're targeting.
 
 ### For ESP32 boards
 

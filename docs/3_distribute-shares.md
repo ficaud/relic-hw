@@ -12,13 +12,9 @@ This document focuses on the best practices for creating a share that respects y
 
 ## 1. Label your shares
 
-On very important thing that we must first tackle is how to make our share **stay reliable over time**. That's why I'd recommend labeling each share with all the information needed to understand what it is and how to use it — so that if someone finds it 10 years from now, they'll still be able to make sense of it.
+One very important thing that we must first tackle is how to make our share **stay reliable over time**. That's why I'd recommend labeling each share with all the information needed to understand what it is and how to use it — so that if someone finds it 10 years from now, they'll still be able to make sense of it.
 
 The ideal solution is to attach a written note that explains, in plain words, what the share is about. **In practice, though, that's hard to keep on a small object.**
-
-This is why you should also add a short text on the key chain customization that describes what the share is about.
-
-> Note: Keep in mind that such a description is limited by the size of the keychain, so it shouldn't exceed about 20 words.
 
 This means you must embed only the essential information in the label:
 
@@ -39,23 +35,6 @@ Or something shorter like:
 BTC-Alice-26/08/12-v1.2.3
 ```
 
-Now here is an array of acronyms proposition that you could use to describes what the secret is about:
-
-| Name | Acronym |
-| --- | --- |
-| Gmail | Gm |
-| Facebook | Fb |
-| 1Password | 1P |
-| Trezor Wallet | TW |
-| Ledger Wallet | Ldg |
-| Bitwarden | Bw |
-| Proton mail | Pm |
-| Coinbase | Cb |
-| Dashlane | Dl |
-| Keepass | Kp |
-| ... | ... |
-
-
 ## 2. How to distribute shares
 
 Then, I think it's important to discuss the best practice for the distribution of your shares. Here are some rules I'd recommend to follow to keep your secret both safe and robust over time.
@@ -68,7 +47,7 @@ In the same way, if you hold valuable assets like cryptocurrency, you'll want to
 
 ### Not too many to your close family
 
-Another rule is that you should **not give your shares to too many people that know each other well.**
+Another rule is that you should **not give your shares to too many people who know each other well.**
 
 This is the same problem as producing them all in the same place: you risk having people join forces against you and use the shares against you.
 
@@ -84,7 +63,7 @@ My personal rule is to keep 2 shares on a threshold of 3, so that I only need on
 
 ## 3. How to craft a share: the thermal printer method
 
-Finally, here comes the part where we actually create a physical version of our share. You can imagine many ways to do this, but here I'll share a few methods I find reliable, easy, and privacy-friendly.
+Finally, here comes the part where we actually create a physical version of our share. You can imagine many ways to do this, but here I'll share one method I find reliable, easy, and privacy-friendly.
 
 The main idea is that you shouldn't leave your shares on a computer, but rather turn them into something physical that people can truly own.
 
@@ -95,6 +74,8 @@ Small thermal printers are cheap, easy to find, and simple to use. They let you 
 I've personally tried the Niimbot B1 thermal printer, which is a good compromise between price and quality.
 
 ![niimbot thermal printer](img/niimboot_printer.png){ width="300" }
+
+Here is a link to get one on [Amazon](https://www.amazon.com/NIIMBOT-B1-Portable-Business-Compatible/dp/B0CKZ46B2B/ref=sr_1_4?crid=2CPUP2KVYBGJU&dib=eyJ2IjoiMSJ9.JOQB8K9tecjxUVg4Z64IgijH5r702VgLeW0Rvh8cK22FuLtMVIn_p8_17Nynf3HBwSEP22Ol-bTgYz0rP8wyTjCr8THb-JybZ7dIAqyjdfaRTDHSXfeXeUH9gPFzfVrEa9V0AWWlQoYVgyTEP6jK87nXAPS_qGlci50H5mWj6DEu3ROCxlcaPqvh_fwriX475zcb-GRnE-1Gf9_eGogeSr04SB_TF6yzG4_jOqWEDNg.dqrkHEXR3u3a2TvsIgt-8cUrjTAymhpgI72tpzAWPYw&dib_tag=se&keywords=niimbot+b1&qid=1789814584&sprefix=niimbot+%2Caps%2C191&sr=8-4)
 
 ### Print your shares
 
@@ -137,6 +118,8 @@ Then all you need to do is create your label and print the QR codes associated w
 
 ![niimblue interface](img/niimblue_interface.png)
 
-Here is what it looks like :
+Here is what it looks like:
 
 ![printed share](img/printed_share.JPG){ width="300" }
+
+---

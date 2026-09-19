@@ -40,9 +40,9 @@ The QR code is generated on the fly and never stored on the device. It can be sc
 > Note: You'll learn about the best ways to distribute your shares in the next step, [Distribute Shares](3_distribute-shares.md).
 
 
-## Bonus : Crypto seed phrase & pass phrase
+## Bonus: Crypto seed phrase & passphrase
 
-If you want to split a seed phrase to secure your crypto assets, you can use the BIP-39 compression to reduce the qrcode size (which is recommended).
+If you want to split a seed phrase to secure your crypto assets, you can use the BIP-39 compression to reduce the QR code size (which is recommended).
 
 Read more about it [here](bonus_crypto_seedphrase.md).
 
@@ -51,5 +51,3 @@ Read more about it [here](bonus_crypto_seedphrase.md).
 The **unsplit** option does the exact opposite: it reconstructs your original secret from your shares. To do so, you'll need to bring together at least the threshold number of shares, as explained in the [recover your secret](4_recover-your-secret.md).
 
 ---
-
-> Note: The screenshots in this guide may become outdated over time. They will be refreshed whenever significant updates are made to Relic.

@@ -12,7 +12,7 @@ Relic knows the list and can compress the seed phrase using the index of each wo
 
 That means you can choose to activate BIP-39 compression when splitting your shares, **which implies the uncompression will have to be activated for the unsplit process.**
 
-Important consideration: The device only performs the transcription when you encrypt your secret and doesn't not store the seed phrase in its memory.
+Important consideration: The device only performs the transcription when you encrypt your secret and does not store the seed phrase in its memory.
 
 ## How to split with BIP-39 compression
 
@@ -24,7 +24,7 @@ All you have to do to activate the compression is check the `BIP-39 compression`
 
 From there, the process is the same. Shares are generated and you can distribute them as you want (except that you benefit from shorter pieces of your secret).
 
-### Adding a pass phrase
+### Adding a passphrase
 
 If you're using a passphrase with a hidden wallet, you can also check the box `With passphrase` before tapping "Encrypt".
 
@@ -46,6 +46,14 @@ All you have to do to activate the compression is check the `BIP-39 compression`
 
 ![bip39 unsplit page](img/bip39_unsplit.PNG){ width="300" }
 
-### Adding a pass phrase
+### What about SLIP-39?
 
-If you know the secret you're trying to recover is a BIP-39 seed phrase that includes a passphrase, all you need to do is check the `With passphrase` box and scan your QR codes (or enter the shares manually) before hitting the `Reconstruct` button.
+Since [v1.7.0](https://github.com/ficaud/relic-core/blob/main/CHANGELOG.md) you can also use the [SLIP-39](https://github.com/satoshilabs/slips/blob/master/slip-0039.md) format to store your seed phrase.
+
+Instead of BIP-39 compression, all you need to do is check the `SLIP-39` box before tapping on "Encrypt" or "Reconstruct".
+
+> Note: The SLIP-39 format is not compatible with BIP-39 compression. It's either one or the other.
+
+### Adding a passphrase
+
+If you know the secret you're trying to recover is a BIP-39 seed phrase that includes a passphrase, all you need to do is check the `With passphrase` box and scan your QR codes (or enter the shares manually) before hitting the `Reconstruct` button. Same for the SLIP-39.

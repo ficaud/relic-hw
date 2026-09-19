@@ -112,7 +112,7 @@ services:
              nginx -g 'daemon off;'"
 ```
 
-Once the Docker container is running, you can access Relic at `http://localhost:8443/`.
+Once the Docker container is running, you can access Niimblue at `http://localhost:8443/`.
 
 Then all you need to do is create your label and print the QR codes associated with your shares — easy.
 

@@ -14,9 +14,13 @@ The following boards are currently supported:
 
 > Note 2: For now, Relic requires boards that support Wi-Fi Access Point (AP) mode. Future versions may support other connection methods.
 
-### Something else to know about the target
+## What you need to know about the targets (their capabilities)
 
-On the ESP32-DevKit-V1, decoding is handled by a third party instead of being embedded in the device like others. This board doesn't have enough RAM to embed the decoder, so it relies on an external device to do the job.
+On the **ESP32-DevKit-V1**, decoding is handled by a third party instead of being embedded in the device like others. This board doesn't have enough RAM to embed the decoder, so it relies on an external device to do the job.
+
+On the **ESP32-S3-DevKitC-1**, the embedded QR codes decoder used is quirc a C library for reading QR codes. This library is lightweight and fast but its performance aren't that great on big Qr codes.
+
+On the **XIAO32**, the embedded QR codes decode library used is zxing-cpp (a C++ port of the original zxing library) that is more performant than quirc but required more memory which is available on the board thanks to the PSRAM.
 
 ## How to get a microcontroller
 
